@@ -1,0 +1,94 @@
+.file-processing-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loader {
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #3498db;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  animation: spin 2s linear infinite;
+  margin-right: 10px;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.additional-info-prompt {
+  font-size: 18px;
+  font-family: "Lucida Grande";
+}
+
+.download-button {
+  margin-top: 40px;
+  width: 150px;
+}
+
+.upload-button {
+  margin-left: 20px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-input {
+  display: flex;
+  align-items: center;
+  width: 350px;
+}
+
+.extra-info-text-area {
+  width: 350px;
+  height: 200px;
+  font-family: "Lucida Grande";
+  border-radius: 20px;
+  padding: 15px;
+}
+
+button {
+  background-color: #cccdc9;
+  display: inline-block;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #000;
+  border: none;
+  font-family: "Lucida Grande";
+  border-radius: 20px;
+}
+
+.custom-input {
+  background-color: #cccdc9;
+  display: inline-block;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #000;
+  border: none;
+  font-family: "Lucida Grande";
+  width: 35%;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+
+.custom-input-message {
+  margin-left: 5px;
+  font-size: 18px;
+  font-family: "Lucida Grande";
+  width: 65%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
