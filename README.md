@@ -1,3 +1,9 @@
+# AutoCSVFormatter
+This project uses the OpenAI GPT API and a generated OpenAI key needs to be setup. Instructions can be found here: https://platform.openai.com/docs/quickstart?context=python. 
+
+The prompt generation can be altered in the 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
